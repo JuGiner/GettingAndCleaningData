@@ -76,6 +76,7 @@ For each row in the dataset we have the following fields:
       be "X", "Y" or "Z")
     - An example is `tBodyAcc_mean_X`, that corresponds to the "mean" of feature "tBodyAcc"
       for the coordinate "X"
+    - values in the range of `[-1,1]`
 
 
 Steps to clean up the data

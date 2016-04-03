@@ -93,4 +93,4 @@ meltData <- melt(datasetMeanStd, id = c("subjectID", "activity", "group"), mesur
 tidyMeanStdData <- dcast(meltData, subjectID + activity + group ~ variable, mean)
 
 ## Save the dataset into a file
-write.table(tidyMeanStdData, file = "./tidy_mean_std_average_data.txt")
+write.table(tidyMeanStdData, file = "./tidy_mean_std_average_data.txt", row.name=FALSE)
